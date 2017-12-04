@@ -12,26 +12,40 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
+  font-family: "Crimson Text";
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 1em;
+}
+
 article {
   max-width: 43em;
+  line-height: 1.3;
 }
 
 article h1 {
   font-weight: normal;
+  margin-top: 1.3rem;
+  margin-bottom: 0;
 }
 
 article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin-top: 1.3rem;
+}
+
 article header p {
   font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
 }
 
 article > p:last-child {
@@ -42,8 +56,14 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .quote {
   color: #999;
+}
+
+article ol {
+  padding-left: 1rem;
 }
