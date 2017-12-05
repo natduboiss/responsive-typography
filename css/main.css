@@ -20,7 +20,9 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article {
@@ -121,4 +123,20 @@ article ol {
     margin-right: 2rem;
   }
 
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  article {
+    margin-left: 13.5rem;
+    padding-right: 10rem;
+  }
+
+  header {
+    margin-top: 1.75rem;
+  }
 }
