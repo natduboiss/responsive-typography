@@ -117,7 +117,8 @@ article ol {
   }
 
   article {
-    margin: 3rem;
+    margin-left: 15rem;
+    margin-right: 2rem;
   }
 
 }
